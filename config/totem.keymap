@@ -92,28 +92,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp Q             &kp W  &kp E             &kp R        &kp T    &kp Y          &kp U            &kp I       &kp O    &kp P
-            &mt LEFT_SHIFT A  &kp S  &kp D             &kp F        &kp G    &kp H          &kp J            &kp K       &kp L    &mt RIGHT_SHIFT SEMICOLON
-&kp ESCAPE  &kp Z             &kp X  &kp C             &kp V        &kp B    &kp N          &kp M            &kp COMMA   &kp DOT  &kp FSLH                   &kp BSLH
-                                     &kp LEFT_CONTROL  &lt 3 SPACE  &mo 2    &kp RIGHT_GUI  &lt 1 BACKSPACE  &kp ESCAPE
-            >;
-        };
-
-        num_layer {
-            bindings = <
-        &kp N1          &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
-        &kp LEFT_SHIFT  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp RIGHT_SHIFT
-&trans  &trans          &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans           &trans
-                                &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        nav_layer {
-            bindings = <
-        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)    &trans     &trans     &trans     &trans     &trans
-        &kp LEFT_SHIFT    &trans            &trans            &trans            &trans        &kp LG(H)  &kp LG(J)  &kp LG(K)  &kp LG(L)  &kp LEFT_SHIFT
-&trans  &trans            &trans            &trans            &trans            &trans        &trans     &trans     &trans     &trans     &trans          &trans
-                                            &trans            &trans            &trans        &trans     &trans     &trans
+            &kp Q             &kp W        &kp E     &kp R        &kp T    &kp Y          &kp U            &kp I       &kp O        &kp P
+            &mt LEFT_SHIFT A  &mt LCTRL S  &kp D     &kp F        &kp G    &kp H          &kp J            &kp K       &mt LCTRL L  &mt RIGHT_SHIFT SEMICOLON
+&kp ESCAPE  &kp Z             &kp X        &kp C     &kp V        &kp B    &kp N          &kp M            &kp COMMA   &kp DOT      &kp FSLH                   &kp SQT
+                                           &kp LALT  &lt 1 SPACE  &mo 3    &kp RIGHT_GUI  &lt 2 BACKSPACE  &kp ESCAPE
             >;
         };
 
@@ -134,10 +116,28 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp EXCL   &kp AT  &kp HASH        &kp DLLR              &kp PRCNT           &kp CARET          &kp AMPS               &kp ASTRK        &kp MINUS  &kp EQUAL
-           &trans     &trans  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp SQT    &kp DOUBLE_QUOTES
-&kp TILDE  &kp GRAVE  &trans  &trans          &trans                &trans              &trans             &trans                 &kp UNDERSCORE   &kp PLUS   &trans             &trans
-                              &trans          &gif                  &trans              &trans             &trans                 &trans
+        &kp EXCL   &kp AT            &kp HASH        &kp DLLR              &kp PRCNT    &kp CARET  &kp AMPS               &kp ASTRK        &kp MINUS          &kp EQUAL
+        &kp SQT    &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &trans       &trans     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp DOUBLE_QUOTES
+&trans  &kp GRAVE  &kp TILDE         &trans          &trans                &trans       &trans     &trans                 &kp UNDERSCORE   &kp PLUS           &kp BACKSLASH      &kp PIPE
+                                     &trans          &gif                  &trans       &trans     &trans                 &trans
+            >;
+        };
+
+        num_layer {
+            bindings = <
+        &kp N1          &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
+        &kp LEFT_SHIFT  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp RIGHT_SHIFT
+&trans  &trans          &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans           &trans
+                                &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        nav_layer {
+            bindings = <
+        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)    &trans     &trans     &trans     &trans     &trans
+        &kp LEFT_SHIFT    &trans            &trans            &trans            &trans        &kp LG(H)  &kp LG(J)  &kp LG(K)  &kp LG(L)  &kp LEFT_SHIFT
+&trans  &trans            &trans            &trans            &trans            &trans        &trans     &trans     &trans     &trans     &trans          &trans
+                                            &trans            &trans            &trans        &trans     &trans     &trans
             >;
         };
     };
