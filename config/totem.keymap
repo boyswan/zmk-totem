@@ -116,10 +116,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL   &kp AT            &kp HASH        &kp DLLR              &kp PRCNT    &kp CARET  &kp AMPS               &kp ASTRK        &kp MINUS          &kp EQUAL
-        &kp SQT    &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &trans       &trans     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp DOUBLE_QUOTES
-&trans  &kp GRAVE  &kp TILDE         &trans          &trans                &trans       &trans     &trans                 &kp UNDERSCORE   &kp PLUS           &kp BACKSLASH      &kp PIPE
-                                     &trans          &gif                  &trans       &trans     &trans                 &trans
+        &kp EXCL   &kp AT            &kp HASH        &kp DLLR              &kp PRCNT        &kp CARET  &kp AMPS               &kp ASTRK        &kp MINUS          &kp EQUAL
+        &kp SQT    &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LS(POUND)    &trans     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp DOUBLE_QUOTES
+&trans  &kp GRAVE  &kp TILDE         &trans          &trans                &trans           &trans     &trans                 &kp UNDERSCORE   &kp PLUS           &kp BACKSLASH      &kp PIPE
+                                     &trans          &gif                  &trans           &trans     &trans                 &trans
             >;
         };
 
@@ -134,8 +134,8 @@
 
         nav_layer {
             bindings = <
-        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)    &trans     &trans     &trans     &trans     &trans
-        &kp LEFT_SHIFT    &trans            &trans            &trans            &trans        &kp LG(H)  &kp LG(J)  &kp LG(K)  &kp LG(L)  &kp LEFT_SHIFT
+        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)    &kp LG(H)  &kp LG(J)  &kp LG(K)  &kp LG(L)  &trans
+        &kp LEFT_SHIFT    &trans            &trans            &kp LG(F)         &trans        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp LEFT_SHIFT
 &trans  &trans            &trans            &trans            &trans            &trans        &trans     &trans     &trans     &trans     &trans          &trans
                                             &trans            &trans            &trans        &trans     &trans     &trans
             >;
